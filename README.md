@@ -30,3 +30,17 @@ A modern Android application that displays cryptocurrency information using **Je
 
 **Data Flow:**
 `UI → ViewModel → UseCase → Repository → API / Database`
+
+
+## Getting Started
+1. Clone the repository
+2. Open in Android Studio
+3. Sync Gradle and run on an emulator or device
+
+## Screenshots
+(Add 2–3 screenshots here)
+
+## Author
+**Muhammad Furqan**  
+Senior Android Developer  
+[GitHub](https://github.com/MuhammadFurqan786) • [LinkedIn](https://linkedin.com/in/muhammadfurqan786)
