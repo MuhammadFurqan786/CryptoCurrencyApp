@@ -18,3 +18,8 @@ A modern Android application that displays cryptocurrency information using **Je
 - **Async:** Coroutines + Flow
 
 ## Architecture Overview
+Presentation (Compose UI + ViewModel)
+↓
+Domain (Use Cases + Repository Interfaces)
+↓
+Data (Repository Implementation + API + Local)
