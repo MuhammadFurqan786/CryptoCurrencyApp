@@ -18,8 +18,15 @@ A modern Android application that displays cryptocurrency information using **Je
 - **Async:** Coroutines + Flow
 
 ## Architecture Overview
--Presentation (Compose UI + ViewModel)
-↓
--Domain (Use Cases + Repository Interfaces)
-↓
--Data (Repository Implementation + API + Local)
+
+### Layer Responsibilities
+
+| Layer | Responsibility |
+|-------|----------------|
+| **Presentation** | UI (Jetpack Compose) + ViewModels. Observes state and sends user events. |
+| **Domain** | Business logic (Use Cases) and repository contracts. Framework-independent. |
+| **Data** | Implements repositories. Handles API calls and local database. |
+
+
+**Data Flow:**
+`UI → ViewModel → UseCase → Repository → API / Database`
